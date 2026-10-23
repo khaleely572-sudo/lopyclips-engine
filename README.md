@@ -110,6 +110,7 @@ Put `LOPYCLIPS_BRAND=YOURNAME` in `.env` to show your channel name on the Shorts
 - **YouTube caps uploads.** It limits how many videos a new channel may upload per day. When it refuses, the engine pauses posting and tries again later by itself.
 - **Clipping rights.** The engine only works with creators you authorize, but you are responsible for having permission and for following YouTube's rules.
 - **Tests:** run `npm test`.
+- **Licenses:** this project is MIT licensed (see `LICENSE`). [Remotion](https://www.remotion.dev/license) has its own license: free for individuals and small companies, larger companies need a company license. The clipper script and the `/watch` skill are separate projects with their own licenses.
 
 ## Keep these private
 
