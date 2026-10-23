@@ -1,7 +1,7 @@
 # Installed packages and build output
 node_modules/
-out/
-public/
+/out/
+/public/
 
 # Everything the engine stores while it runs: database, transcripts, footage, renders, logs
 /data/

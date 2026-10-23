@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="lopy-token" content="__TOKEN__">
+<title>LopyClips Engine</title>
+<link rel="stylesheet" href="/styles.css">
+<!-- The 3D office loads its graphics library only when that view is opened. -->
+<script type="importmap">
+{"imports": {"three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js", "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"}}
+</script>
+</head>
+<body>
+<header>
+  <h1>LopyClips <span>engine</span></h1>
+  <div id="pills"></div>
+  <div id="controls"></div>
+</header>
+<nav id="tabs"></nav>
+<p id="notice" hidden></p>
+<main id="view"></main>
+<aside id="panel" hidden></aside>
+<script type="module" src="/app.js"></script>
+</body>
+</html>
