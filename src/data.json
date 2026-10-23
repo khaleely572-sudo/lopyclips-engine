@@ -1,0 +1,13 @@
+{
+ "fps": 30,
+ "credit": "Clips from a creator on YouTube",
+ "videos": [
+  {
+   "id": "sample",
+   "title": "SAMPLE SHORT",
+   "doneStart": 0,
+   "pips": 1,
+   "segments": []
+  }
+ ]
+}

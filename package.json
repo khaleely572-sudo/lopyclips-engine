@@ -1,0 +1,33 @@
+{
+  "name": "remotion-clipper",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts Short out/short.mp4",
+    "auth:youtube": "node scripts/youtube/cli.mjs auth",
+    "auth:youtube:status": "node scripts/youtube/cli.mjs status",
+    "auth:youtube:logout": "node scripts/youtube/cli.mjs logout",
+    "youtube:test-upload": "node scripts/youtube/cli.mjs test-upload",
+    "test:youtube": "node --test scripts/youtube/selftest.mjs",
+    "engine": "node engine/main.mjs",
+    "engine:doctor": "node engine/cli.mjs doctor",
+    "engine:discover": "node engine/cli.mjs discover",
+    "engine:once": "node engine/cli.mjs once",
+    "engine:status": "node engine/cli.mjs status",
+    "engine:nim-key": "node engine/cli.mjs nim-key",
+    "engine:nim-models": "node engine/cli.mjs nim-models",
+    "test": "node --test scripts/youtube/selftest.mjs \"engine/tests/*.test.mjs\""
+  },
+  "dependencies": {
+    "@googleapis/youtube": "^40.0.0",
+    "@remotion/bundler": "4.0.535",
+    "@remotion/cli": "^4.0.535",
+    "@remotion/google-fonts": "^4.0.535",
+    "@remotion/renderer": "4.0.535",
+    "google-auth-library": "^11.2.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "remotion": "^4.0.535"
+  }
+}

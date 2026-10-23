@@ -1,0 +1,22 @@
+# Installed packages and build output
+node_modules/
+out/
+public/
+
+# Everything the engine stores while it runs: database, transcripts, footage, renders, logs
+/data/
+
+# Keys, OAuth client files and sign-in tokens. Never commit or share these.
+/secrets/
+/tokens/
+/token.json
+/.env
+/.env.*
+!.env.example
+
+# Copies and leftovers
+/backups/
+*.db
+*.db-wal
+*.db-shm
+*.mp4
